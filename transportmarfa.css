@@ -1,0 +1,69 @@
+body {
+    background-color: #000000;
+    background-image: url('transportmarfa.jpeg');
+          
+          background-attachment: fixed;  
+          background-size: cover;
+}
+
+.solicita-cotatie::-webkit-scrollbar {
+    width: 10px;
+}
+
+.solicita-cotatie::-webkit-scrollbar-button:end {
+    height: 20px;
+}
+
+.solicita-cotatie::-webkit-scrollbar-button:start {
+    height: 20px;
+}
+
+.solicita-cotatie::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(104, 128, 236);
+}
+
+.solicita-cotatie::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.container#doi .tabel h1 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+label#nume-si-prenume, label#telefonl, label#emaill, label#greutatel, label#voluml, #tip-de-marfal, #detaliil, #relatie-de-transportl {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+input:not(#GDPR) {
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+input:focus {
+    outline: 0.1px solid black;
+}
+
+input#submit:active{
+    outline: 0px;
+}
+
+input#submit:focus{
+    outline: 0px;
+}
+
+::placeholder {
+    background: rgb(235, 235, 235);
+    text-align: center;
+}
+
+::placeholder:focus{
+    background: rgb(235, 235, 235);
+}
+
+.container#doi .solicita-cotatie div div {
+    margin-top: 20px;
+}

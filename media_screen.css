@@ -1,0 +1,170 @@
+@media screen and (max-width: 250px) {
+    #sosea {
+        display: none;
+    }
+
+    #animation {
+        display: none;
+    }
+    .container#unu h1#titlu {
+        display: none;
+    }
+
+    .container#unu img#logo {
+        display: none;
+    }
+
+    .container#unu .menu {
+        display: none;
+    }
+
+    .container#unu #email_logo {
+        width: 10vw;
+        height: 7vw;
+        padding-bottom: 20px;
+        position: fixed;
+    }
+
+    .container#unu .treilinii {
+        display: block;
+    }
+
+    .container#unu .menubar div{
+        width: 100vw;
+    }
+
+    .container#unu .menubar h1 {
+        width: 100vw;
+        height: 20vw;
+    }
+    .container#unu .treilinii button#linii {
+        display: block;
+    }
+
+    .container#unu .treilinii button#linii:hover {
+        display: block;
+    }
+
+    .container#unu .treilinii button#linii:active {
+        display: block;
+    }
+
+    .container#unu .menubar {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 499px) {
+    #sosea {
+        display: none;
+    }
+
+    #animation {
+        display: none;
+    }
+
+    .container#unu h1#titlu {
+        font-size: 25px;
+        top: 9vw;
+        left: 50vw;
+        position: fixed;
+    }
+
+    .container#unu img#logo {
+        display: none;
+    }
+
+    .container#unu .menu {
+        display: none;
+    }
+
+    .container#unu #email_logo {
+        width: 20vw;
+        height: 14vw;
+        padding-bottom: 20px;
+        position: fixed;
+    }
+    
+    .container#unu .treilinii {
+        display: block;
+    }
+
+    .container#unu .treilinii button#linii {
+        display: block;
+    }
+
+    .container#unu .treilinii button#linii:hover {
+        display: block;
+    }
+
+    .container#unu .treilinii button#linii:active {
+        display: block;
+    }
+
+    .container#unu .menubar {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1347px) and (min-width: 500px) {
+    #sosea {
+        display: none;
+    }
+
+    #animation {
+        display: none;
+    }
+
+    .container#unu h1#titlu {
+        font-size: 30px;
+        top: 4vw;
+        left: 50vw;
+        position: fixed;
+    }
+
+    .container#unu img#logo {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        left: 120px;
+        top: 5px;
+        height: 90px;
+        width: 100px;
+        position: fixed;
+    }
+
+    .container#unu .menu {
+        display: none;
+    }
+
+    .container#unu .treilinii {
+        display: block;
+    }
+
+    .container#unu .treilinii button#linii {
+        display: block;
+    }
+
+    .container#unu .treilinii button#linii:hover {
+        display: block;
+    }
+
+    .container#unu .treilinii button#linii:active {
+        display: block;
+    }
+
+    .container#unu #email_logo {
+        display: block;
+    }
+
+    .container#unu a img#email_logo {
+        display: block;
+    }
+
+    .container#unu .menubar {
+        display: none;
+    }
+
+}

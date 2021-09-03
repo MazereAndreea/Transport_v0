@@ -1,0 +1,471 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+select {
+    vertical-align: middle;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.container {
+    width: inherit;
+    height: inherit;
+}
+
+.container#unu {
+    background-color: rgba(255, 255, 255, 0.877);
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+}
+
+.container#unu #animation {
+    position: absolute;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+.container#unu #sosea {
+    width: 760px;
+    position: fixed;
+    top: 38px;
+    left: 160px;
+}
+
+.container#unu #animationi {
+    position: absolute; top: 15px; left: 160px; width: 50px; height: 20px; background-color: rgba(255, 255, 255, 0.877);
+}
+
+@-webkit-keyframes example {
+    0% {
+        left: 0px;
+        transform: none;
+    }
+
+    25% {
+        left: 255px;
+        transform: none;
+    }
+
+    30% {
+        left: 300px;
+        transform: translateY(13px);
+    }
+
+    100% {
+        left: 310px;
+        transform: translateY(13px);
+    }
+
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        transform: none;
+    }
+
+    25% {
+        left: 255px;
+        transform: none;
+    }
+
+    30% {
+        left: 300px;
+        transform: translateY(13px);
+    }
+
+    100% {
+        left: 720px;
+        transform: translateY(13px);
+    }
+
+}
+
+.container#unu .menu {
+    position: fixed;
+    width: inherit;
+    height: inherit;
+}
+
+.container#unu h1#titlu {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(153, 40, 40);
+    text-transform: capitalize;
+    font-size: 30px;
+    position: fixed;
+    top: 43px;
+    left: 160px;
+    padding: 0px;
+    border-style: hidden;
+}
+
+.container#unu img#logo {
+    margin-right: 0px;
+    left: 20px;
+    top: 5px;
+    height: 90px;
+    width: 100px;
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.container#unu img#linii {
+    display: none;
+    width: 100px;
+    height: 69.4px;
+}
+
+.container#unu .treilinii {
+    display: none;
+}
+
+.container#unu .treilinii button#linii {
+    border: none;
+    width: 100px;
+    height: 69.4px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: fixed;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.container#unu .treilinii img {
+    width: 100px;
+    height: 69.4px;
+}
+
+.container#unu .treilinii button#linii:hover {
+    background-color: rgb(224, 89, 26);
+}
+
+.container#unu .treilinii button#linii:active {
+    background-color: rgb(224, 89, 26);
+}
+
+.container#unu .menubar {
+    margin-top: 100px;
+    height: 200px;
+    width: 250px;
+    position: fixed;
+    display: none;
+}
+
+.container#unu .menubar a {
+    text-decoration: none;
+    height: 40px;
+    width: 250px;
+    position: fixed;
+}
+
+.container#unu .menubar a:hover {
+    background-color: rgb(224, 89, 26);
+    cursor: pointer;
+}
+
+.container#unu .menubar h1:hover {
+    color: rgb(153, 40, 40);
+}
+
+.container#unu .menubar div {
+    height: 40px;
+    width: 250px;
+    background-color: rgb(180, 180, 180, 0.9);
+}
+
+.container#unu .menubar h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(224, 17, 17);
+    font-size: 20px;
+    text-transform: capitalize;
+    height: 30px;
+    width: 250px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container#unu .menu a {
+    color: rgb(153, 40, 40);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    position: fixed;
+}
+
+.container#unu .menu a:hover {
+    color: rgb(224, 89, 26);
+}
+
+.container#unu .menu a:visited {
+    text-decoration: none;
+}
+
+.container#unu .menu #home {
+    left: 500px;
+    top: 52px;
+}
+
+.container#unu .menu #despre-noi {
+    left: 594.61px;
+    top: 52px;
+}
+
+.container#unu .menu #transport-marfa {
+    left: 742.13px;
+    top: 52px;
+}
+
+.container#unu .menu #facebook {
+    top: 20px;
+}
+
+.container#unu .menu #insta {
+    top: 30px;
+}
+
+.container#unu .menu #facebook {
+    left: 960px;
+}
+
+.container#unu .menu #insta {
+    left: 1060px;
+}
+
+.container#unu .menu #facebook img {
+    width: 70px;
+    height: 70px;
+}
+
+.container#unu .menu #insta img {
+    width: 50px;
+    height: 50px;
+}
+
+.container#unu .menu img#phone {
+    padding-left: 77%;
+    width: 30px;
+    height: 70px;
+    padding-top: 1%;
+}
+
+.container#unu .menu #mama {
+    top: 35px;
+    right: 13%;
+}
+
+.container#unu .menu #tata {
+    top: 60px;
+    right: 13%;
+}
+
+.container#unu .menu #email_logo {
+    height: 70px;
+    padding-left: 140%;
+    padding-top: 20px;
+}
+
+.container#unu .menu a img#email_logo {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+
+}

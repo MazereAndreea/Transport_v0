@@ -1,0 +1,192 @@
+<div class="container" id="doi">
+    <div style="margin-left: 130px; 
+    margin-top: 50px; 
+    width: 410px; 
+    height: 420px; 
+    border: thin solid; 
+    border-radius: 30px;
+    background: rgb(235, 235, 235);
+    overflow: scroll;
+    overflow-x: hidden;" class="solicita-cotatie">
+        <h1 style="text-align: center; font-size: 20px; margin-top: 30px;">SOLICITA COTATIE TRANSPORT</h1>
+        <div style="width: 100%;">
+            <div class="Nume si prenume">
+                <label id="nume-si-prenume">Nume si Prenume/Companie</label>
+                <input id="nume-prenume" type="text" name="nume si prenume" placeholder=" " size="33"
+                    required />
+            </div>
+            <div class="telefon">
+                <label id="telefonl">Telefon</label>
+                <input id="telefon" type="tel" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder=" " size="25" required />
+            </div>
+            <div class="email">
+                <label id="emaill">Email</label>
+                <input id="email" type="email" name="email" placeholder=" " size="25" required />
+            </div>
+            <div style="height: 220px; border: solid; border-radius: 10px; border-width: 1px;" class="relatie-de-transport">
+                <div style="width: 150px; float: left;">
+                    <div style="margin-top: 0px; margin-bottom: 5px; margin-left: 10px; width: 150px;">
+                        <label id="relatie-de-transportl">Încărcare</label>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <input id="relatie-de-transport" list="myDatalist" temp=""
+                            onmouseover="this.temp=this.value; this.value='';"
+                            onmouseout="this.value-this.temp;" type="text" name="relatie-de-transport"
+                            placeholder=" " size="10" required />
+                        <datalist id="myDatalist" open="open">
+                            <option value="Romania">
+                            <option value="Austria">
+                            <option value="Belgia">
+                            <option value="Bulgaria">
+                            <option value="Cipru">
+                            <option value="Croația">
+                            <option value="Danemarca">
+                            <option value="Estonia">
+                            <option value="Finlanda">
+                            <option value="Franța">
+                            <option value="Germania">
+                            <option value="Grecia">
+                            <option value="Irlanda">
+                            <option value="Italia">
+                            <option value="Letonia">
+                            <option value="Lituania">
+                            <option value="Luxemburg">
+                            <option value="Malta">
+                            <option value="Polonia">
+                            <option value="Portugalia">
+                            <option value="Cehia">
+                            <option value="Slovacia">
+                            <option value="Slovenia">
+                            <option value="Spania">
+                            <option value="Suedia">
+                            <option value="Olanda">
+                            <option value="Ungaria">
+                        </datalist>
+                    </div>
+                </div>
+                <div style="float: left; margin-top: 50px;">
+                    <label style="display: flex; padding-left: 20px;">----------></label>
+                </div>
+                <div style="float: left;">
+                    <div style="margin-bottom: 5px; margin-top: 0px;">
+                        <label style="padding-left: 45px;" id="relatie-de-transportl">Descărcare</label>
+                    </div>
+                    <div style="margin-top: 0px; margin-top: 10px;">
+                        <input style="margin-left: 40px;" id="relatie-de-transport" list="myDatalistt" temp=""
+                        onmouseover="this.temp=this.value; this.value='';"
+                        onmouseout="this.value-this.temp;" type="text"
+                            name="relatie-de-transport" placeholder=" " size="10" required />
+                            <datalist id="myDatalistt" open="open">
+                                <option value="Romania">
+                                <option value="Austria">
+                                <option value="Belgia">
+                                <option value="Bulgaria">
+                                <option value="Cipru">
+                                <option value="Croația">
+                                <option value="Danemarca">
+                                <option value="Estonia">
+                                <option value="Finlanda">
+                                <option value="Franța">
+                                <option value="Germania">
+                                <option value="Grecia">
+                                <option value="Irlanda">
+                                <option value="Italia">
+                                <option value="Letonia">
+                                <option value="Lituania">
+                                <option value="Luxemburg">
+                                <option value="Malta">
+                                <option value="Polonia">
+                                <option value="Portugalia">
+                                <option value="Cehia">
+                                <option value="Slovacia">
+                                <option value="Slovenia">
+                                <option value="Spania">
+                                <option value="Suedia">
+                                <option value="Olanda">
+                                <option value="Ungaria">
+                            </datalist>
+                    </div>
+                </div>
+                <div>
+                    <div style="width: 150px; float: left;">
+                        <div style="margin-top: 0px; margin-bottom: 5px; margin-left: 10px; width: 150px;">
+                            <label style="padding-left: 70px;" id="relatie-de-transportl">Oraș</label>
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <input style="margin-left: 50px;" id="relatie-de-transport" temp=""
+                            onmouseover="this.temp=this.value; this.value='';"
+                            onmouseout="this.value-this.temp;"
+                                type="text" name="relatie-de-transport"
+                                placeholder=" " size="10" required />
+                        </div>
+                    </div>
+                    <div style="float: left; margin-top: 50px;">
+                        <label style="display: flex; padding-left: 20px;">-------></label>
+                    </div>
+                    <div style="float: left;">
+                        <div style="margin-bottom: 5px; margin-top: 0px; margin-left: 30px;">
+                            <label id="relatie-de-transportl">Oraș</label>
+                        </div>
+                        <div style="margin-top: 0px; margin-top: 10px;">
+                            <input id="relatie-de-transport" type="text"
+                                name="relatie-de-transport" placeholder=" " size="10" required />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div style="float: left;">
+                        <div style="margin-top: 0px; margin-bottom: 5px; margin-left: 10px; width: 150px;">
+                            <label style="padding-left: 50px;" id="relatie-de-transportl">Cod poștal</label>
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <input style="margin-left: 50px;" id="relatie-de-transport"
+                                type="text" pattern="[0-9]*" name="relatie-de-transport"
+                                placeholder=" " size="10" required />
+                        </div>
+                    </div>
+                    <div style="float: left;">
+                        <div style="margin-bottom: 5px; margin-top: 0px; margin-left: 60px;">
+                            <label id="relatie-de-transportl">Cod poștal</label>
+                        </div>
+                        <div style="margin-top: 0px; margin-top: 10px;">
+                            <input style="margin-left: 85px;" id="relatie-de-transport" type="text"
+                                name="relatie-de-transport" placeholder=" " size="10" required />
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="greutate">
+                <label id="greutatel">Greutate</label>
+                <input id="greutate" type="text" name="Greutate" placeholder=" " size="15" required />
+            </div>
+            <div class="volum">
+                <label id="voluml">Volum</label>
+                <input id="volum" type="text" name="Volum" placeholder=" " size="15" required />
+            </div>
+            <div class="tip-de-marfa">
+                <label id="tip-de-marfal">Tipul de marfă si natura mărfii</label>
+                <input id="tip-de-marfa" type="text" name="Tipul de marfa" placeholder=" " size="33" required />
+            </div>
+            <div class="detalii">
+                <label id="detaliil">Detalii marfa</label>
+                <input id="detalii" type="text" name="Detalii" placeholder=" " size="30" required />
+            </div>
+            <div class="GDPR">
+                <div><label style="margin-left: 30px; position: relative" id="GDPRl">GDPR Agreement</label>
+                </div>
+                <div style="margin-top: 0px; width: 60px; float: left;">
+                    <input style="margin-top: 30px; margin-left: 40px; outline: 0px;" id="GDPR" type="checkbox"
+                        name="GDPR" value="checkbox" required />
+                </div>
+                <div style="margin-top: 20px; float: right; width: 80%;">
+                    <label id="GDPRl1">Accept că acest site web stochează informațiile trimise pentru a putea
+                        răspunde la solicitarea mea.</label>
+                </div>
+            </div>
+            <div style="padding-top: 60px;" class="submit">
+                <input id="submit" style="width: 60px; height: 30px;" type="submit">
+            </div>
+        </div>
+    </div>
+</div>

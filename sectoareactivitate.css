@@ -1,0 +1,75 @@
+.container#unu {
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    position: fixed;
+}
+
+.container#unu h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    left: 160px;
+    padding: 0px;
+    border-style: hidden;
+}
+
+.container#unu img {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: fixed;
+    left: 20px;
+    top: 5px;
+    height: 90px;
+    width: 100px;
+}
+
+.container#unu .menu img {
+    position: fixed;
+    left: 440px;
+    top: 20px;
+    height: 80px;
+    width: 1000px;
+}
+
+.container#unu .menu a {
+    color: rgb(153, 40, 40);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    position: fixed;
+    top: 50px;
+}
+
+.container#unu .menu a:hover {
+    color: rgb(224, 89, 26);
+}
+
+.container#unu .menu a:visited {
+    text-decoration: none;
+}
+
+.container#unu .menu #home {
+    left: 500px;
+}
+
+.container#unu .menu #despre-noi {
+    left: 594.61px;
+}
+
+.container#unu .menu #transportmarfa {
+    left: 742.13px;
+}
+
+.container#unu .menu #sectoare-activitate {
+    left: 957.91px;
+}
+
+.container#unu .menu #contact {
+    left: 1200.64px;
+}
